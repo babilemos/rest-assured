@@ -4,7 +4,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class CountriesAPI_LanguageTest {
 
-    String queryLanguage = "{\"query\":\"query {\\n  languages(filter:{code:{eq:\\\"en\\\"}}){\\n    code\\n    name\\n  }\\n}\",\"variables\":{}}";
+    String queryLanguage = "{\"query\":\"query {\\n  languages(filter:{code:{eq:\\\"fr\\\"}}){\\n    code\\n    name\\n  }\\n}\",\"variables\":{}}";
     String queryAllLanguage = "{\"query\":\"query {\\n  languages(filter:{}){\\n    code\\n    name\\n  }\\n}\",\"variables\":{}}";
 
     @Test
